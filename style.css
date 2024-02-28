@@ -587,7 +587,7 @@ span {
 .contact form .input-box .input-field {
   position: relative;
   width: 49%;
-  margin: 0.8rem 0;
+  margin: 1.5rem 0;
 }
 
 .contact form .input-box .input-field input,
@@ -596,6 +596,7 @@ span {
   height: 100%;
   padding: 1.5rem;
   font-size: 1.6rem;
+  outline: none;
   color: var(--text-color);
   background: transparent;
   border-radius: 0.6rem;
@@ -627,12 +628,16 @@ span {
 
 .contact form .textarea-field {
   position: relative;
-  margin: 0.8rem 0 2.7rem;
+  margin: 1.5rem 0 2.7rem;
   display: flex;
 }
 
 .contact form .textarea-field textarea {
   resize: none;
+}
+
+.contact form .textarea-field .error-text {
+  margin-top: -10px;
 }
 
 .contact form .btn-box.btns .btn {
